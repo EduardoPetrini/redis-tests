@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import RedisClient from './lib/RedisClient';
 
 const host = process.env.REDIS_HOST || 'localhost';
